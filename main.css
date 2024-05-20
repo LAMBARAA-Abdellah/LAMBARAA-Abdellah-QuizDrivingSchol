@@ -25,6 +25,14 @@ body {
 .quiz-header {
     padding: 4rem;
 }
+.quiz-image {
+    width: 100%;
+    height: auto;
+    max-width: 300px; /* Adjust as needed */
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px; /* Optional for rounded corners */
+}
 
 h2 {
     padding: 1rem;
