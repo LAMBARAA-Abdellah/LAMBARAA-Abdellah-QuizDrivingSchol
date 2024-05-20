@@ -22,7 +22,7 @@
 
 .text h1 {
     text-transform: uppercase;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .text p {
@@ -99,6 +99,7 @@ svg #sun {
     animation: sun 5s alternate infinite;
 }
 
+
 @keyframes sun {
     0% {
         transform: translateY(-15px);
@@ -112,6 +113,11 @@ svg #sun {
 }
 
 @media(max-width:1200px) {
+    #container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .bg svg{
         width: 90%;
         height: 100%;
@@ -120,4 +126,5 @@ svg #sun {
         width: 60%;
         height: 100%;
     }
+ 
 }
